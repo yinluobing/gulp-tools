@@ -1,0 +1,51 @@
+{
+  "name": "gulp-tools",
+  "version": "1.0.0",
+  "description": "tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yinluobing/gulp-tools.git"
+  },
+  "keywords": [
+    "gulptools"
+  ],
+  "author": "xiaoyin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yinluobing/gulp-tools/issues"
+  },
+  "homepage": "https://github.com/yinluobing/gulp-tools#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-cache": "^0.4.6",
+    "gulp-changed": "^3.1.0",
+    "gulp-clean-css": "^3.4.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.0",
+    "gulp-debug": "^3.1.0",
+    "gulp-file-copy": "0.0.1",
+    "gulp-file-include": "^1.1.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-inject": "^4.2.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.2",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-load-utils": "0.0.4",
+    "gulp-make-css-url-version": "0.0.13",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "imagemin-pngquant": "^5.0.1",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "pump": "^1.0.2",
+    "run-sequence": "^1.2.2"
+  }
+}

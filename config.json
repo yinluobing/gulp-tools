@@ -1,0 +1,12 @@
+{
+  "isDev": false,
+  "isPc": true,
+  "pathSrc": "src/",
+  "pathBuild": "build/",
+  "pathProject": "../work/zt",
+  "pathApp": "201706mds/",
+  "pathTplpc": "tpl/html/pc/",
+  "pathTplm": "tpl/html/m/",
+  "pathImg": "C:/Users/roots/Desktop/images/",
+  "pathEdit": "E:/wwwroot/layer_admin"
+}
