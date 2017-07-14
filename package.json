@@ -21,6 +21,8 @@
   "homepage": "https://github.com/yinluobing/gulp-tools#readme",
   "devDependencies": {
     "browser-sync": "^2.18.12",
+    "electron": "^1.6.11",
+    "electron-prebuilt": "^1.4.13",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-cache": "^0.4.6",

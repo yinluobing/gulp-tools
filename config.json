@@ -1,12 +1,12 @@
 {
-  "isDev": false,
+  "isDev": true,
   "isPc": true,
-  "pathSrc": "src/",
-  "pathBuild": "build/",
-  "pathProject": "../work/zt",
-  "pathApp": "201706mds/",
-  "pathTplpc": "tpl/html/pc/",
-  "pathTplm": "tpl/html/m/",
-  "pathImg": "C:/Users/roots/Desktop/images/",
-  "pathEdit": "E:/wwwroot/layer_admin"
+  "dist_path": "dist/",
+  "bulid_path": "build/",
+  "project_path": "../work/zt",
+  "app_name": "mds",
+  "pc_tpl_path": "tpl/html/pc/",
+  "m_tpl_path": "tpl/html/m/",
+  "ps_img_path": "C:/Users/roots/Desktop/images/",
+  "edit_path": "E:/wwwroot/layer_admin"
 }

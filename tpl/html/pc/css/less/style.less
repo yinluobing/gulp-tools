@@ -1,0 +1,122 @@
+@images: "../../images";
+.round(@radius:5px;) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.container {
+    background: #FFFFFF;
+}
+
+.animation_up, .animation_right, .animation_down, .animation_left{
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.animation_up:hover {
+  -webkit-transform: translate(0px, -5px);
+  -moz-transform: translate(0px, -5px);
+  -o-transform: translate(0px, -5px);
+  transform: translate(0px, -5px);
+}
+
+.animation_right:hover {
+  -webkit-transform: translate(5px, 0px);
+  -moz-transform: translate(5px, 0px);
+  -o-transform: translate(5px, 0px);
+  transform: translate(5px, 0px);
+}
+
+.animation_down:hover {
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+  -o-transform: translate(0px, 5px);
+  transform: translate(0px, 5px);
+}
+.animation_left:hover {
+  -webkit-transform: translate(-5px, 0px);
+  -moz-transform: translate(-5px, 0px);
+  -o-transform: translate(-5px, 0px);
+  transform: translate(-5px, 0px);
+}
+/*旋转代码*/
+@-webkit-keyframes animation_rotate {
+  from { -webkit-transform: rotate(-55deg) }
+  to { -webkit-transform: rotate(305deg) }
+}
+@-moz-keyframes animation_rotate{
+  from { -moz-transform: rotate(-55deg) }
+  to { -moz-transform: rotate(305deg) }
+}
+@-ms-keyframes animation_rotate {
+  from { -ms-transform: rotate(-55deg) }
+  to { -ms-transform: rotate(305deg) }
+}
+/*
+  -moz-transform: rotate(-55deg);
+  -webkit-transform: rotate(-55deg);
+  -ms-transform: rotate(-55deg);
+  -webkit-animation-name: animation_rotate;
+  -webkit-animation-duration: 5000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: animation_rotate;
+  -moz-animation-duration: 5000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: animation_rotate;
+  -ms-animation-duration: 5000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+*/
+.hd {
+    margin-left: 45%;
+}
+
+.hd li {
+    float: left;
+    margin-right: 0.3em;
+    width: 0.6em;
+    height: 0.6em;
+    text-indent: -9999px;
+    border-radius: 50%;
+    background: #a3a3a3;
+}
+
+.hd li.on {
+    background: #dbb375;
+}
+
+.container {
+    .btn {
+        width: 80%;
+        margin: 0 10%;
+        height: 2.5em;
+        line-height: 2.5em;
+        background: #dbb375;
+        text-align: center;
+        font-size: 30/24em;
+        color: #fff;
+        border-radius: 0.3em;
+    }
+    .t {
+        fieldset {
+            .img {
+                text-align: center
+            }
+            margin: 0 3.125%;
+            border-color: #dbb375;
+            legend {
+                text-align: center;
+                font-size: 34/24em;
+                color: #dbb375;
+            }
+            p {
+                padding: 1%;
+                color: #ffffff;
+            }
+        }
+    }
+}
