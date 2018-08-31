@@ -2,7 +2,7 @@
 
  1. 安装bower、gulp ```npm install bower gulp --save-dev -g```
  2. 拉取代码 ```git clone https://github.com/yinluobing/gulp-tools```
- 3. 安装依赖包 ```cd `构建工具目录,例如:(cd gulp-tools)` && npm install```
+ 3. 安装依赖包 ```cd gulp-tools && npm install```
  4. 安装前端组件 ```bower install```
  5. 添加一个项目 ```npm run dev```![add.gif][1] 会copy一个模板、目前模板是demo
  6. 前端架构是用的requirejs,需要安装前端组件可以
