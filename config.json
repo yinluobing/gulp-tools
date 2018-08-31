@@ -1,12 +1,1 @@
-{
-  "isDev": true,
-  "isPc": true,
-  "dist_path": "dist/",
-  "bulid_path": "build/",
-  "project_path": "../work/zt",
-  "app_name": "mds",
-  "pc_tpl_path": "tpl/html/pc/",
-  "m_tpl_path": "tpl/html/m/",
-  "ps_img_path": "C:/Users/roots/Desktop/images/",
-  "edit_path": "E:/wwwroot/layer_admin"
-}
+{"name":"demo","port":8888,"path":"./src/","template":"demo","list":{"demo":{"path":"./src/demo"}}}
