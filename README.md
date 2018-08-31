@@ -1,4 +1,4 @@
-###gulp前端项目快速构建工具###
+### gulp前端项目快速构建工具
 
  1. 安装bower、gulp ```npm install bower gulp --save-dev -g```
  2. 拉取代码 ```git clone https://github.com/yinluobing/gulp-tools```
