@@ -1,1 +1,11 @@
-{"name":"demo","port":8888,"path":"./src/","template":"demo","list":{"demo":{"path":"./src/demo"}}}
+{
+  "name": "demo",
+  "port": 8888,
+  "path": "./src/",
+  "template": "demo",
+  "list": {
+    "demo": {
+      "path": "./src/demo"
+    }
+  }
+}

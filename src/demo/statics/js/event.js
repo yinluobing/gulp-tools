@@ -1,3 +1,3 @@
 define('event', ['jquery'], function () {
-    console.log($.prototype)
-})
+    console.log($.prototype);
+});
