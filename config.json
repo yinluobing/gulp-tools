@@ -1,11 +1,14 @@
 {
-  "name": "demo",
+  "name": "mobanwuyou",
   "port": 8888,
   "path": "./src/",
   "template": "demo",
   "list": {
     "demo": {
       "path": "./src/demo"
+    },
+    "mobanwuyou": {
+      "path": "./src/mobanwuyou"
     }
   }
 }

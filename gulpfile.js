@@ -90,7 +90,7 @@ gulp.task('js', function () {
 
 // 图片
 gulp.task('img', function () {
-    return gulp.src(path + '/statics/img/**/*')
+    return gulp.src([path + '/statics/img/**/*.jpg', path + '/statics/img/**/*.png', path + '/statics/img/**/*.gif'])
         .pipe(cache(imagemin({optimizationLevel: 3, progressive: true, interlaced: true})))
         .on('error', function (err) {
             gutil.log(gutil.colors.red('[Error]'), err.toString());
@@ -112,9 +112,9 @@ gulp.task('watch', function () {
     // 看守所有.js档
     gulp.watch(path + '/statics/js/**/*.js', ['js']);
     // 看守所有图片档
-    gulp.watch(path + '/statics/img/**/*', ['img']);
+    gulp.watch([path + '/statics/img/**/*.jpg', path + '/statics/img/**/*.png', path + '/statics/img/**/*.gif'], ['img']);
     // 看守所有.html档
-    gulp.watch(path + '/*.html', ['html']);
+    gulp.watch([path + '/*.html', path + '/components/*.html'], ['html']);
 
 });
 

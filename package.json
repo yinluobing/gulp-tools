@@ -34,13 +34,17 @@
     "cross-spawn": "^6.0.5",
     "fs-extra": "^7.0.0",
     "gulp-ejs": "^3.2.0",
-    "openurl": "^1.1.1"
+    "openurl": "^1.1.1",
+    "stylelint": "^9.7.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0"
   },
   "scripts": {
     "server": "node index",
     "start": "node project",
     "dev": "gulp default",
-    "build": "gulp build"
+    "build": "gulp build",
+    "stylelint": "stylelint ./src/mobanwuyou/css/style.less --syntax less --fix"
   },
   "author": "yinluobing",
   "license": "ISC"
